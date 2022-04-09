@@ -1,6 +1,6 @@
 ---
 date: '2022-09-04'
-imgUrl: './img/ig.svg'
+imgUrl: './img/ig.png'
 altText: 'instagram'
 url: 'https://instagram.com/mts_beatz/'
 ---
