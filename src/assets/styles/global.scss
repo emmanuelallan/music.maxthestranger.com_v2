@@ -82,6 +82,158 @@ img {
 }
 
 /*===================
+      testimony 
+====================*/
+h2 {
+  padding: 0.625rem 0;
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #707070;
+}
+
+.testimony {
+  position: relative;
+  width: 100%;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.test-wrapper {
+  width: 100%;
+  max-width: 81.25rem;
+  margin: auto;
+  text-align: center;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.test-wrapper h2 {
+  padding: 0 0 0.75rem;
+  font-family: Bebas Neue, Poppins, Roboto, Helvetica Neue, sans-serif;
+  font-size: 3.875rem;
+  font-weight: 500;
+  line-height: 1.03;
+  letter-spacing: -0.025rem;
+  color: #fff;
+  margin: 0;
+}
+
+.test-wrapper p {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.0125rem;
+  color: #b8b8b8;
+}
+
+.card-con {
+  -moz-column-count: 1;
+  column-count: 1;
+  -moz-column-gap: 0.75rem;
+  column-gap: 0.75rem;
+  max-width: 28.125rem;
+  margin: auto;
+  -moz-column-fill: initial;
+  column-fill: initial;
+  grid-gap: 0.75rem;
+  padding: 1.5rem;
+}
+
+.test {
+  display: inline-block;
+  width: 100%;
+}
+
+.test-con {
+  padding: 1.25rem;
+  margin-bottom: 0.75rem;
+  background-color: #212024;
+  border-radius: 0.25rem;
+}
+
+.top-sec,
+.bottom-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-sec {
+  margin-bottom: 1rem;
+}
+
+.bottom-sec {
+  margin-top: 0.75rem;
+}
+
+.bottom-sec p {
+  color: #f2f2f2;
+  letter-spacing: 0.075rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.bottom-sec span {
+  text-align: right;
+  color: #8f9ba8;
+}
+
+.test-con .desc {
+  margin-bottom: 0.75rem;
+  color: #8f9ba8;
+  text-align: left;
+  word-break: break-word;
+  font-size: 0.9rem;
+  /* font-weight: 500; */
+}
+
+.top-sec p {
+  font-size: 1.125rem;
+  color: #f2f2f2;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+  max-width: 80%;
+}
+
+@media (min-width: 769px) {
+  .card-con {
+    -moz-column-count: 2;
+    column-count: 2;
+    max-width: 56.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .card-con {
+    -moz-column-count: 3;
+    column-count: 3;
+    max-width: 70.625rem;
+  }
+}
+
+@media (min-width: 480px) {
+  .testimony {
+    padding: 0 24px 20px;
+  }
+}
+
+@media (min-width: 1348px) {
+  .testimony {
+    padding: 0 0 30px;
+  }
+}
+
+/*===================
       footer 
 ====================*/
 .footer {
